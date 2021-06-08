@@ -9,4 +9,6 @@ The examples of usage this tool and the outputs you can find in `examples` folde
 
 To use, please install:
  - EnaTool: `pip install ENA_tool`
- - enaDataGet: follow the [instructions](https://github.com/enasequence/enaBrowserTools)
+ - enaDataGet: follow the [instructions](https://github.com/enasequence/enaBrowserTools) 
+
+Before usage, please, make sure, that `enaDataGet` is installed properly and that command like `enaDataGet -f fastq -a ACCESSION` works fine.
