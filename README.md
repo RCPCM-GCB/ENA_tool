@@ -7,4 +7,6 @@ Convenient dowloader of raw files for ENA.
 
 The examples of usage this tool and the outputs you can find in `examples` folder.
 
-To install use `pip install ENA_tool`
+To use, please install:
+ - EnaTool: `pip install ENA_tool`
+ - enaDataGet: follow the [instructions](https://github.com/enasequence/enaBrowserTools)
