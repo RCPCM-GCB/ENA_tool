@@ -1,0 +1,3 @@
+sample_name	accession	filepath	number_of_files	download_status
+SAMEA6359332	ERR3711723	['/data5/bio/runs-tikhonova/GIT_repos/ENA_tools/examples/PRJEB35665/input_data/ERR3711723/ERR3711723_1.fastq.gz', '/data5/bio/runs-tikhonova/GIT_repos/ENA_tools/examples/PRJEB35665/input_data/ERR3711723/ERR3711723_2.fastq.gz']	2	['OK', 'OK']
+SAMEA6359333	ERR3711724	['/data5/bio/runs-tikhonova/GIT_repos/ENA_tools/examples/PRJEB35665/input_data/ERR3711724/ERR3711724_1.fastq.gz', '/data5/bio/runs-tikhonova/GIT_repos/ENA_tools/examples/PRJEB35665/input_data/ERR3711724/ERR3711724_2.fastq.gz']	2	['OK', 'OK']

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROJECT_SET>
+<PROJECT accession="PRJEB35665" alias="ena-STUDY-Institute of Agricultural Biology and Biotechnology - National Research Council (CNR)-04-12-2019-10:22:10:972-837" center_name="Institute of Agricultural Biology and Biotechnology - National Research Council (CNR)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB35665</PRIMARY_ID>
+          <SECONDARY_ID>ERP118751</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institute of Agricultural Biology and Biotechnology - National Research Council (CNR)">ena-STUDY-Institute of Agricultural Biology and Biotechnology - National Research Council (CNR)-04-12-2019-10:22:10:972-837</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Microbiota in early melanoma patients</NAME>
+     <TITLE>Fecal microbiota in early stage melanoma patients</TITLE>
+     <DESCRIPTION>Background: The microbiome is emerging as a crucial player of the immune checkpoint in cancer. Melanoma is a highly immunogenic tumour, and the gut microbiome composition has been correlated to prognosis and evolution of advanced melanoma and proposed as biomarker for immune checkpoint therapy. 
+Objectives: We investigated the gut fungal and bacterial composition in early stage melanoma (M) and melanoma associated leukoderma (MAL) patients and correlated microbial profiles with histopathological features. 
+Methods: Bacterial 16S rRNA gene and fungal ITS region sequencing was performed from faecal samples of patients affected by stage I and II M, MAL, and healthy controls. A meta-analysis with gut microbiota data from metastatic M patients was also carried out. 
+Results: We found a combination of gut fungal and bacterial profiles significantly discriminating M patients from controls. In M patients, we observed an abundance of Prevotella copri, a butyrate-producing bacteria, and yeasts belonging to the Saccharomycetales order. In addition, a specific fungal profile significantly correlated to melanoma regression, whereas bacterial and fungal community, separately or combined, correlated to melanoma invasiveness. Bacteroides ovatus was identified as general marker of immunogenicity, being shared by regressive and invasive melanoma. 
+Conclusions: Gut microbiota composition in early stage melanoma changes along the gradient from in situ to invasive melanoma. We hypothesize that changes in the microbiota and mycobiota might contribute to the better prognosis of early stage melanoma through a direct or indirect immunomodulation, and, on the other hand, to the unfavourable course and response to immune therapy of advanced stage melanoma.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA2306316</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS4125572-ERS4125651</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX3715160-ERX3715239</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR3711713-ERR3711792</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB35665&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB35665&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-06-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-06-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>
