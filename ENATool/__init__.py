@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 @pd.api.extensions.register_dataframe_accessor("ena")
-class EnaTool:
+class ENATool:
     def __init__(self, pandas_obj):
         self._obj = pandas_obj
         self.table_type = None
