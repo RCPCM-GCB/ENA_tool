@@ -1,5 +1,5 @@
 # ENA_tool
-Convenient dowloader of raw files for ENA.
+Convenient dowloader of full metadata and raw files for ENA.
 
 - Fetches all samples info and metadata from xml files at ENA browser for a project by project id (accession). 
 - Stores this information to `.csv` and `.html` files. 
