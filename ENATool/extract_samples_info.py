@@ -4,8 +4,10 @@ import os
 try:
     _in_ipython_session = __IPYTHON__
     from tqdm import tqdm_notebook as tq
+    no_progress_bar=False
 except NameError:
-    from tqdm import tqdm as tq
+#    from tqdm import tqdm as tq
+    no_progress_bar=True
 import xml.etree.cElementTree as et
 import requests
 try:
@@ -13,8 +15,8 @@ try:
 except:
     from pandas.io.parsers import ParserBase
 
-# no_progress_bar=True
-no_progress_bar=False
+
+
   
 ####### EXAMPLE #######  
 #  folder='xml_files'
