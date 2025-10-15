@@ -7,10 +7,10 @@ with open(path.join(this_directory, 'README.md'), "r") as fh:
 
 setup(
     name='ENATool',
-    description='Convenient dowloader of raw files from ENA',
+    description='Convenient downloader of raw files from ENA',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="0.0.0",
+    version="0.0.1a",
     license='MIT',
     author='P.Tikhonova',
     author_email='tikhonova.polly@mail.ru',

@@ -32,6 +32,7 @@ class ENATool:
                 report_table.ena.id = self.id
                 report_table.ena.path = self.path
                 return report_table
+            raise ValueError('''table_type is absent!''')
         else:
             raise ValueError('''PandasDataFrame.ena.id is None. It seems like you forgot to reinitialize your table with the existing features: 
         new_table.ena.reinitialize(table) 

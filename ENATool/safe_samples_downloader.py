@@ -107,6 +107,8 @@ def download_and_check_data(project_id, accession,
             return res_status[0]
         else:
             return res_status
+    print('enaDataGet -f fastq -d "{destination_folder}" {accession}'.format(
+    destination_folder=destination_folder, accession=accession))
     enatool_output = subprocess.call('enaDataGet -f fastq -d "{destination_folder}" {accession}'.format(
     destination_folder=destination_folder, accession=accession), shell=True)
     
