@@ -6,7 +6,7 @@ try:
     from tqdm import tqdm_notebook as tq
     no_progress_bar=False
 except NameError:
-#    from tqdm import tqdm as tq
+    from tqdm import tqdm as tq
     no_progress_bar=True
 import xml.etree.cElementTree as et
 import requests
