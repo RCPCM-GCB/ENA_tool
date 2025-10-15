@@ -1,7 +1,11 @@
 import pandas as pd
 import numpy as np
 import os
-from tqdm import tqdm_notebook as tq
+try:
+    _in_ipython_session = __IPYTHON__
+    from tqdm import tqdm_notebook as tq
+except NameError:
+    from tqdm import tqdm as tq
 import xml.etree.cElementTree as et
 import requests
 try:
