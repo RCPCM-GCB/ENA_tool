@@ -219,14 +219,24 @@ template_footer
     return table_html
 
 def correct_columns(table):
-    uni_columns, rev_inds, counts = np.unique(table.columns.values, 
-                                              return_counts=True, 
-                                              return_inverse=True)
-    suffix_inds = counts[rev_inds]
-    suffix = np.array(['']*len(suffix_inds))
-    suffix[suffix_inds > 1] = np.arange(sum(suffix_inds>1))
-    new_columns = ['%s_%s'%(col, suf) if suf != '' else col for col, suf in zip(table.columns.values, suffix)]
-    table.columns = new_columns
+    uni, counts = np.unique(table.columns.values, return_counts=True)
+    duplicated_columns = uni[counts > 1]
+    
+    def increment(column):
+        iter_ = 1
+        column = column
+        while True:
+            if iter_ == 1:
+                yield column
+            else:
+                yield column + '_%d'%iter_
+            iter_ += 1
+    
+    increment_gen = {col:increment(col)
+                     for col in table.columns.values
+                     if col in duplicated_columns}
+    table.columns = [next(increment_gen[col]) if col in increment_gen.keys() else col 
+                     for col in table.columns.values]
     return table
 
 def get_ncbi_info(sample_accessions):
@@ -235,7 +245,7 @@ def get_ncbi_info(sample_accessions):
         sample_info = pd.read_html("https://www.ncbi.nlm.nih.gov/biosample/%s"%sample_accession, 
                                    index_col=0)[0].transpose()
         sample_info.index = [sample_accession]
-        sample_info_table.append(sample_info)
+        sample_info_table.append(correct_columns(sample_info))
     return pd.concat(sample_info_table)
     
 
